@@ -1,0 +1,19 @@
+{
+  "name": "neochart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JTLaMarre/NEOChart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JTLaMarre/NEOChart/issues"
+  },
+  "homepage": "https://github.com/JTLaMarre/NEOChart#readme"
+}
