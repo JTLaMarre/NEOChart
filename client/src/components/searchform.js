@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import axios from 'axios';
 
 
@@ -17,6 +19,8 @@ const Data = ()=>{
 }
 
     return(
+      <Row> 
+      <Col>
         <Form>
 <Form.Group >
     <Form.Label>Start Date</Form.Label>
@@ -31,6 +35,8 @@ const Data = ()=>{
     Submit
   </Button>
         </Form>
+      </Col>
+      </Row>
     )
 }
 
