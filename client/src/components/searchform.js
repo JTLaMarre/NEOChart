@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
@@ -21,7 +21,8 @@ const handleRequest = ()=>{
   .then(function (response) {
     // handle success
     console.log(response);
-    console.log(`Data is ${data}`)
+    setData(response.data.near_earth_objects)
+
   })
   .catch(function (error) {
     // handle error
@@ -33,7 +34,10 @@ const handleRequest = ()=>{
   });
 }
 
+useEffect(()=>{
+  console.log(data)
 
+},[data])
 
 
 
