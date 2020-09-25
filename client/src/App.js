@@ -5,20 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* form to set query for axios call to the NASA api */}
+     {/* set the NEO data for query to a data state */}
+     {/* use chart.js to create a chart that displays stats on the NEOs pie chart of how many are what sizes  answer if any potentially dangerous asteroids*/}
     </div>
   );
 }
